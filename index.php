@@ -1,9 +1,10 @@
-<?php
+<?php include('header.php'); ?>
 
-include('Encode.php');
+<div class="ui container">
+    <div class="ui segment"></div>
+</div>
 
-Encode::encodeimage();
+<?php include('footer.php'); ?>
 
-?>
 
-<img src="photo.jpg" alt="">
+
